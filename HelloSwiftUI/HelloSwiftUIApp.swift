@@ -9,16 +9,16 @@ import SwiftUI
 
 @main
 struct HelloSwiftUIApp: App {
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
   @Environment(\.scenePhase) private var scenePhase
   @StateObject private var landmarkData = LandmarkData()
   
   var body: some Scene {
     WindowGroup {
-      ContentView()
-        .onOpenURL { url in
-          print("Received URL: \(url)")
-        }
-        .environmentObject(landmarkData)
+      ContentView().onOpenURL { url in
+        print("Received URL: \(url)")
+      }
+      .environmentObject(landmarkData)
     }
     .onChange(of: scenePhase) { newPhase in
       switch newPhase {

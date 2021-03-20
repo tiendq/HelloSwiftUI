@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A851288D2602447A00471E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A851288C2602447A00471E63 /* AppDelegate.swift */; };
 		A854BA1D2592F35B003960BC /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A854BA1C2592F35B003960BC /* turtlerock.jpg */; };
 		A854BA202592F405003960BC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854BA1F2592F405003960BC /* CircleImage.swift */; };
 		A854BA242592F5E7003960BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854BA232592F5E7003960BC /* MapView.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A851288C2602447A00471E63 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A854BA1C2592F35B003960BC /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		A854BA1F2592F405003960BC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		A854BA232592F5E7003960BC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		A88B6970255A5BB900BA16A9 /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A851288C2602447A00471E63 /* AppDelegate.swift */,
 				A854BA482592FFB5003960BC /* Models */,
 				A854BA472592FFAF003960BC /* Views */,
 				A854BA1B2592F315003960BC /* Resources */,
@@ -265,6 +268,7 @@
 				A87187E9259370DE00A98B32 /* HexagonParameters.swift in Sources */,
 				A87187F2259389CB00A98B32 /* RotatedBadgeSymbol.swift in Sources */,
 				A87187EF259388F700A98B32 /* BadgeSymbol.swift in Sources */,
+				A851288D2602447A00471E63 /* AppDelegate.swift in Sources */,
 				A88B6972255A5BB900BA16A9 /* HelloSwiftUIApp.swift in Sources */,
 				A87187E02593286E00A98B32 /* LandmarkDetail.swift in Sources */,
 				A87187EC2593720500A98B32 /* BadgeBackground.swift in Sources */,

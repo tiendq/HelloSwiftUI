@@ -7,6 +7,13 @@
 
 import SwiftUI
 
+/*extension View {
+  func print(_ value: Any) -> Self {
+    Swift.print(value)
+    return self
+  }
+}*/
+
 struct LandmarkRow: View {
   var landmark: Landmark
   
@@ -30,5 +37,6 @@ struct LandmarkRow_Previews: PreviewProvider {
   static var landmarks = LandmarkData().landmarks
   static var previews: some View {
     LandmarkRow(landmark: landmarks[0])
+      .previewLayout(.sizeThatFits)
   }
 }
