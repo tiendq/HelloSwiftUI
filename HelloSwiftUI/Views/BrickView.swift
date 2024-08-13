@@ -1,14 +1,14 @@
 //
-//  ContentView.swift
+//  BrickView.swift
 //  HelloSwiftUI
 //
-//  Created by Tien Do on 5/10/24.
+//  Created by Tien Do on 8/7/24.
 //
 
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct BrickView: View {
   @Environment(\.modelContext) private var modelContext
   @Query private var items: [Item]
 
@@ -23,7 +23,7 @@ struct ContentView: View {
           NavigationLink {
             HStack {
               Image(systemName: imageName)
-                //.scaleEffect(2.0)
+              //.scaleEffect(2.0)
                 .font(.largeTitle)
                 .foregroundStyle(Color.yellow)
               Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
@@ -33,11 +33,17 @@ struct ContentView: View {
               .padding()
               .background(Color.yellow)
           }
+          .swipeActions {
+            Button(role: .destructive) {
+            } label: {
+              Label("Delete", systemImage: "trash")
+            }
+          }
         }
         .onDelete(perform: deleteItems)
       }
       .toolbar {
-        ToolbarItem(placement: .navigationBarTrailing) {
+        ToolbarItem(placement: .cancellationAction) {
           EditButton()
         }
         ToolbarItem {
@@ -50,14 +56,12 @@ struct ContentView: View {
       Text("Select an item")
     }
   }
-
   private func addItem() {
     withAnimation {
       let newItem = Item(timestamp: Date())
       modelContext.insert(newItem)
     }
   }
-
   private func deleteItems(offsets: IndexSet) {
     withAnimation {
       for index in offsets {
@@ -68,6 +72,6 @@ struct ContentView: View {
 }
 
 #Preview {
-  ContentView()
+  BrickView()
     .modelContainer(for: Item.self, inMemory: true)
 }

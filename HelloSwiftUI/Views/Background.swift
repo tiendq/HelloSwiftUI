@@ -13,10 +13,10 @@ struct Background: View {
       Text("One")
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .foregroundStyle(.white)
+        .background(Color.pink, ignoresSafeAreaEdges: .all)
         .font(.largeTitle)
-        .background(.pink)
         .tabItem {
-          Label("One", systemImage: "film.stack")
+          Label("One", systemImage: "sun.max.fill")
         }
       ZStack {
         Color.yellow.ignoresSafeArea()
@@ -24,7 +24,7 @@ struct Background: View {
           .font(.largeTitle)
       }
       .tabItem {
-        Label("Two", systemImage: "film.stack")
+        Label("Two", systemImage: "book")
       }
       VStack {
         Text("Three")
@@ -33,7 +33,7 @@ struct Background: View {
       .frame(maxWidth: .infinity, maxHeight: .infinity)
       .background(.teal)
       .tabItem {
-        Label("Three", systemImage: "film.stack")
+        Label("Three", systemImage: "person")
       }
     }
   }
