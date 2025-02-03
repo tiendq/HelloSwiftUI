@@ -10,6 +10,7 @@ import SwiftUI
 struct KeywordBubble: View {
   let keyword: String
   let symbol: String
+  let color: Color
 
   @ScaledMetric(relativeTo: .title) var paddingWidth = 14.5
 
@@ -17,8 +18,8 @@ struct KeywordBubble: View {
     Label(keyword, systemImage: symbol)
       .padding(paddingWidth)
       .font(.title)
-      .foregroundColor(.white)
-      .background(.green.opacity(0.75), in: Capsule())
+      .foregroundStyle(.white)
+      .background(color.opacity(0.75), in: Capsule())
   }
 }
 
@@ -26,8 +27,8 @@ struct KeywordBubble: View {
   let keywords = ["chives", "fern-leaf", "lavender"]
 
   return Group {
-    KeywordBubble(keyword: keywords[0], symbol: "leaf")
-    KeywordBubble(keyword: keywords[1], symbol: "leaf")
-    KeywordBubble(keyword: keywords[2], symbol: "leaf")
+    KeywordBubble(keyword: keywords[0], symbol: "leaf", color: .green)
+    KeywordBubble(keyword: keywords[1], symbol: "heart", color: .red)
+    KeywordBubble(keyword: keywords[2], symbol: "leaf", color: .purple)
   }
 }

@@ -11,7 +11,19 @@
 		941EF77D2C63621000A851C7 /* BrickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EF77C2C63621000A851C7 /* BrickView.swift */; };
 		941EF77F2C63638400A851C7 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EF77E2C63638400A851C7 /* WishlistView.swift */; };
 		941EF7812C63743500A851C7 /* KeywordBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EF7802C63743500A851C7 /* KeywordBubble.swift */; };
+		9431A4C12D4F5A8500D20C20 /* SelectableColorGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9431A4C02D4F5A8500D20C20 /* SelectableColorGrid.swift */; };
+		9431A4C32D4F678A00D20C20 /* PanGestureColorGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9431A4C22D4F678A00D20C20 /* PanGestureColorGrid.swift */; };
+		9431A4C52D4F8AE100D20C20 /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9431A4C42D4F8AE100D20C20 /* FeaturedView.swift */; };
+		9431A4C72D4F8B4400D20C20 /* FeaturedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9431A4C62D4F8B4400D20C20 /* FeaturedSection.swift */; };
+		9431A4C92D4F8BEF00D20C20 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9431A4C82D4F8BEF00D20C20 /* FeaturedItem.swift */; };
+		9431A4CC2D50049000D20C20 /* GalleryHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9431A4CB2D50049000D20C20 /* GalleryHeroView.swift */; };
 		9466B36C2C0044C900DFBFF8 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466B36B2C0044C900DFBFF8 /* Background.swift */; };
+		946E17D22D41EE440084EAAC /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E17D12D41EE440084EAAC /* ProductCard.swift */; };
+		946E17D42D41F33F0084EAAC /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E17D32D41F33F0084EAAC /* ProductList.swift */; };
+		948479D92C9BD7B800367573 /* ColorGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479D82C9BD7B800367573 /* ColorGrid.swift */; };
+		948479DB2C9BDBA900367573 /* SFSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479DA2C9BDBA900367573 /* SFSymbolView.swift */; };
+		948479DD2C9BDF8B00367573 /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479DC2C9BDF8B00367573 /* SymbolGrid.swift */; };
+		948479DF2C9BE60900367573 /* SFSymbolPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479DE2C9BE60900367573 /* SFSymbolPickerView.swift */; };
 		9494673A2BEDD6E8000B7158 /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949467392BEDD6E8000B7158 /* HelloSwiftUIApp.swift */; };
 		9494673C2BEDD6E8000B7158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9494673B2BEDD6E8000B7158 /* ContentView.swift */; };
 		9494673E2BEDD6E8000B7158 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9494673D2BEDD6E8000B7158 /* Item.swift */; };
@@ -24,7 +36,19 @@
 		941EF77C2C63621000A851C7 /* BrickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickView.swift; sourceTree = "<group>"; };
 		941EF77E2C63638400A851C7 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
 		941EF7802C63743500A851C7 /* KeywordBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordBubble.swift; sourceTree = "<group>"; };
+		9431A4C02D4F5A8500D20C20 /* SelectableColorGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableColorGrid.swift; sourceTree = "<group>"; };
+		9431A4C22D4F678A00D20C20 /* PanGestureColorGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanGestureColorGrid.swift; sourceTree = "<group>"; };
+		9431A4C42D4F8AE100D20C20 /* FeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
+		9431A4C62D4F8B4400D20C20 /* FeaturedSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedSection.swift; sourceTree = "<group>"; };
+		9431A4C82D4F8BEF00D20C20 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
+		9431A4CB2D50049000D20C20 /* GalleryHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryHeroView.swift; sourceTree = "<group>"; };
 		9466B36B2C0044C900DFBFF8 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		946E17D12D41EE440084EAAC /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		946E17D32D41F33F0084EAAC /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		948479D82C9BD7B800367573 /* ColorGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGrid.swift; sourceTree = "<group>"; };
+		948479DA2C9BDBA900367573 /* SFSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolView.swift; sourceTree = "<group>"; };
+		948479DC2C9BDF8B00367573 /* SymbolGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
+		948479DE2C9BE60900367573 /* SFSymbolPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolPickerView.swift; sourceTree = "<group>"; };
 		949467362BEDD6E8000B7158 /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		949467392BEDD6E8000B7158 /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		9494673B2BEDD6E8000B7158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +77,18 @@
 				941EF77C2C63621000A851C7 /* BrickView.swift */,
 				941EF77E2C63638400A851C7 /* WishlistView.swift */,
 				941EF7802C63743500A851C7 /* KeywordBubble.swift */,
+				948479D82C9BD7B800367573 /* ColorGrid.swift */,
+				948479DC2C9BDF8B00367573 /* SymbolGrid.swift */,
+				948479DA2C9BDBA900367573 /* SFSymbolView.swift */,
+				948479DE2C9BE60900367573 /* SFSymbolPickerView.swift */,
+				946E17D12D41EE440084EAAC /* ProductCard.swift */,
+				946E17D32D41F33F0084EAAC /* ProductList.swift */,
+				9431A4C02D4F5A8500D20C20 /* SelectableColorGrid.swift */,
+				9431A4C22D4F678A00D20C20 /* PanGestureColorGrid.swift */,
+				9431A4C42D4F8AE100D20C20 /* FeaturedView.swift */,
+				9431A4C62D4F8B4400D20C20 /* FeaturedSection.swift */,
+				9431A4C82D4F8BEF00D20C20 /* FeaturedItem.swift */,
+				9431A4CB2D50049000D20C20 /* GalleryHeroView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,13 +200,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				941EF77B2C63614000A851C7 /* SettingsView.swift in Sources */,
+				9431A4C52D4F8AE100D20C20 /* FeaturedView.swift in Sources */,
 				941EF77F2C63638400A851C7 /* WishlistView.swift in Sources */,
+				948479DD2C9BDF8B00367573 /* SymbolGrid.swift in Sources */,
 				9494673C2BEDD6E8000B7158 /* ContentView.swift in Sources */,
+				946E17D22D41EE440084EAAC /* ProductCard.swift in Sources */,
 				941EF77D2C63621000A851C7 /* BrickView.swift in Sources */,
+				9431A4C92D4F8BEF00D20C20 /* FeaturedItem.swift in Sources */,
+				9431A4C12D4F5A8500D20C20 /* SelectableColorGrid.swift in Sources */,
+				9431A4C32D4F678A00D20C20 /* PanGestureColorGrid.swift in Sources */,
 				9494673E2BEDD6E8000B7158 /* Item.swift in Sources */,
 				9494673A2BEDD6E8000B7158 /* HelloSwiftUIApp.swift in Sources */,
+				948479DF2C9BE60900367573 /* SFSymbolPickerView.swift in Sources */,
+				9431A4CC2D50049000D20C20 /* GalleryHeroView.swift in Sources */,
+				948479D92C9BD7B800367573 /* ColorGrid.swift in Sources */,
+				9431A4C72D4F8B4400D20C20 /* FeaturedSection.swift in Sources */,
 				9466B36C2C0044C900DFBFF8 /* Background.swift in Sources */,
+				946E17D42D41F33F0084EAAC /* ProductList.swift in Sources */,
 				941EF7812C63743500A851C7 /* KeywordBubble.swift in Sources */,
+				948479DB2C9BDBA900367573 /* SFSymbolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +349,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = ZP7K2X86MC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,6 +360,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +368,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TechnicSaigon.HelloSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,10 +380,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = ZP7K2X86MC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -341,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,6 +399,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TechnicSaigon.HelloSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -23,7 +23,7 @@ struct BrickView: View {
           NavigationLink {
             HStack {
               Image(systemName: imageName)
-              //.scaleEffect(2.0)
+                .scaleEffect(2.0)
                 .font(.largeTitle)
                 .foregroundStyle(Color.yellow)
               Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
