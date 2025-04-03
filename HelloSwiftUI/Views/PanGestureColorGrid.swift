@@ -1,6 +1,7 @@
 import SwiftUI
 
 // Incomplete, watch it https://www.youtube.com/watch?v=CaSrL-uBEAM
+// Recognizing Gestures https://developer.apple.com/tutorials/sample-apps/recognizinggestures
 
 // Custom, better than built-in SwiftUI gesture.
 // Ref: https://youtu.be/CaSrL-uBEAM?t=307

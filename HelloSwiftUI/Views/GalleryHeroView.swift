@@ -173,6 +173,7 @@ struct ScrollContentView: View {
     ScrollView {
       GalleryHeroSection(palettes: palettes)
     }
+    .border(.red)
   }
 }
 

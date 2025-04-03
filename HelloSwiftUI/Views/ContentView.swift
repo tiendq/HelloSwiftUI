@@ -17,20 +17,7 @@ struct ContentView: View {
   @Environment(\.modelContext) private var modelContext
 
   var body: some View {
-    TabView {
-      BrickView()
-        .tabItem {
-          Label("Brick", systemImage: "book")
-        }
-      WishlistView()
-        .tabItem {
-          Label("Wishlist", systemImage: "book")
-        }
-      SettingsView()
-        .tabItem {
-          Label("Settings", systemImage: "gear")
-        }
-    }
+    ImageZoomView()
   }
 }
 

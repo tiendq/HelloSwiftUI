@@ -29,6 +29,8 @@
 		9494673E2BEDD6E8000B7158 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9494673D2BEDD6E8000B7158 /* Item.swift */; };
 		949467402BEDD6E9000B7158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9494673F2BEDD6E9000B7158 /* Assets.xcassets */; };
 		949467432BEDD6E9000B7158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949467422BEDD6E9000B7158 /* Preview Assets.xcassets */; };
+		949DE2BF2D9E7E1F00C54157 /* Zoomable in Frameworks */ = {isa = PBXBuildFile; productRef = 949DE2BE2D9E7E1F00C54157 /* Zoomable */; };
+		94B326F02D9E715600A3C4BA /* ImageZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B326EF2D9E715600A3C4BA /* ImageZoomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,7 @@
 		9494673D2BEDD6E8000B7158 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9494673F2BEDD6E9000B7158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949467422BEDD6E9000B7158 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94B326EF2D9E715600A3C4BA /* ImageZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageZoomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949DE2BF2D9E7E1F00C54157 /* Zoomable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +93,7 @@
 				9431A4C62D4F8B4400D20C20 /* FeaturedSection.swift */,
 				9431A4C82D4F8BEF00D20C20 /* FeaturedItem.swift */,
 				9431A4CB2D50049000D20C20 /* GalleryHeroView.swift */,
+				94B326EF2D9E715600A3C4BA /* ImageZoomView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +178,9 @@
 				Base,
 			);
 			mainGroup = 9494672D2BEDD6E8000B7158;
+			packageReferences = (
+				949DE2BD2D9E7E1F00C54157 /* XCRemoteSwiftPackageReference "Zoomable" */,
+			);
 			productRefGroup = 949467372BEDD6E8000B7158 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,6 +212,7 @@
 				941EF77F2C63638400A851C7 /* WishlistView.swift in Sources */,
 				948479DD2C9BDF8B00367573 /* SymbolGrid.swift in Sources */,
 				9494673C2BEDD6E8000B7158 /* ContentView.swift in Sources */,
+				94B326F02D9E715600A3C4BA /* ImageZoomView.swift in Sources */,
 				946E17D22D41EE440084EAAC /* ProductCard.swift in Sources */,
 				941EF77D2C63621000A851C7 /* BrickView.swift in Sources */,
 				9431A4C92D4F8BEF00D20C20 /* FeaturedItem.swift in Sources */,
@@ -349,29 +358,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 53QBNW5E7H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TechnicSaigon.HelloSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = HelloSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -380,29 +393,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 53QBNW5E7H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TechnicSaigon.HelloSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = HelloSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -428,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		949DE2BD2D9E7E1F00C54157 /* XCRemoteSwiftPackageReference "Zoomable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ryohey/Zoomable.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		949DE2BE2D9E7E1F00C54157 /* Zoomable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 949DE2BD2D9E7E1F00C54157 /* XCRemoteSwiftPackageReference "Zoomable" */;
+			productName = Zoomable;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9494672E2BEDD6E8000B7158 /* Project object */;
 }

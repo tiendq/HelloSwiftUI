@@ -7,6 +7,23 @@
 
 import SwiftUI
 
+let animals: [String: String] = [
+  "Bear": "🐻",
+  "Crab": "🦀",
+  "Duck": "🦆",
+  "Frog": "🐸",
+  "Fox": "🦊",
+  "Goose": "🪿",
+  "Horse": "🐴",
+  "Jellyfish": "🪼",
+  "Lizard": "🦎",
+  "Octopus": "🐙",
+  "Panda": "🐼",
+  "Rabbit": "🐰",
+  "Sheep": "🐑",
+  "Whale": "🐳",
+]
+
 struct SFSymbol : Identifiable, Equatable {
   var id = UUID()
   var name = ""

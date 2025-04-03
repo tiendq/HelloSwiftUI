@@ -1,10 +1,3 @@
-//
-//  HelloSwiftUIApp.swift
-//  HelloSwiftUI
-//
-//  Created by Tien Do on 5/10/24.
-//
-
 import SwiftUI
 import SwiftData
 

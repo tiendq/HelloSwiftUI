@@ -19,7 +19,7 @@ struct Background: View {
           Label("One", systemImage: "sun.max.fill")
         }
       ZStack {
-        Color.yellow.ignoresSafeArea()
+        Color.green.ignoresSafeArea()
         Text("Two")
           .font(.largeTitle)
       }

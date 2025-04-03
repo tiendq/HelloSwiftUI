@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FeaturedView: View {
   var body: some View {
-    VStack {
+    ScrollView {
       FeaturedSection(name: "Featured")
       FeaturedSection(name: "Recents")
       FeaturedSection(name: "Most Viewed")

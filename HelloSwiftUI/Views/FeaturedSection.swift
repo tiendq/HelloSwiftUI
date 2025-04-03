@@ -17,17 +17,18 @@ struct FeaturedSection: View {
   var body: some View {
     VStack(alignment: .leading) {
       Text(name)
-        .font(.title.bold())
-
+        .font(.title3.bold())
+        .border(.yellow)
+        .padding([.leading])
       ScrollView(.horizontal) {
-        LazyHStack(spacing: 10.0) {
+        LazyHStack {
           ForEach(colors, id: \.description) { color in
             FeaturedItem(color: color)
           }
         }
         .scrollTargetLayout()
       }
-      .contentMargins(.horizontal, 20.0)
+      //.contentMargins(.horizontal, 20.0)
       .scrollTargetBehavior(.viewAligned)
       .scrollIndicators(.hidden)
       .onAppear {
@@ -35,6 +36,9 @@ struct FeaturedSection: View {
           colors.append(Color.random)
         }
       }
+      .frame(height: 250)
+      .border(.blue)
+      Spacer()
     }
   }
 }
