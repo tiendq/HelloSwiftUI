@@ -20,6 +20,7 @@
 		9466B36C2C0044C900DFBFF8 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466B36B2C0044C900DFBFF8 /* Background.swift */; };
 		946E17D22D41EE440084EAAC /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E17D12D41EE440084EAAC /* ProductCard.swift */; };
 		946E17D42D41F33F0084EAAC /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E17D32D41F33F0084EAAC /* ProductList.swift */; };
+		947D739C2E7B2179005B0EAE /* containerRelativeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D739B2E7B2179005B0EAE /* containerRelativeFrame.swift */; };
 		948479D92C9BD7B800367573 /* ColorGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479D82C9BD7B800367573 /* ColorGrid.swift */; };
 		948479DB2C9BDBA900367573 /* SFSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479DA2C9BDBA900367573 /* SFSymbolView.swift */; };
 		948479DD2C9BDF8B00367573 /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479DC2C9BDF8B00367573 /* SymbolGrid.swift */; };
@@ -47,6 +48,7 @@
 		9466B36B2C0044C900DFBFF8 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		946E17D12D41EE440084EAAC /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		946E17D32D41F33F0084EAAC /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		947D739B2E7B2179005B0EAE /* containerRelativeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = containerRelativeFrame.swift; sourceTree = "<group>"; };
 		948479D82C9BD7B800367573 /* ColorGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGrid.swift; sourceTree = "<group>"; };
 		948479DA2C9BDBA900367573 /* SFSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolView.swift; sourceTree = "<group>"; };
 		948479DC2C9BDF8B00367573 /* SymbolGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				9431A4C82D4F8BEF00D20C20 /* FeaturedItem.swift */,
 				9431A4CB2D50049000D20C20 /* GalleryHeroView.swift */,
 				94B326EF2D9E715600A3C4BA /* ImageZoomView.swift */,
+				947D739B2E7B2179005B0EAE /* containerRelativeFrame.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,7 +165,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					949467352BEDD6E8000B7158 = {
 						CreatedOnToolsVersion = 15.3;
@@ -228,6 +231,7 @@
 				946E17D42D41F33F0084EAAC /* ProductList.swift in Sources */,
 				941EF7812C63743500A851C7 /* KeywordBubble.swift in Sources */,
 				948479DB2C9BDBA900367573 /* SFSymbolView.swift in Sources */,
+				947D739C2E7B2179005B0EAE /* containerRelativeFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 53QBNW5E7H;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -292,6 +297,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -332,6 +338,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 53QBNW5E7H;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -348,6 +355,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -362,14 +370,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 53QBNW5E7H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,14 +406,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 53QBNW5E7H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
