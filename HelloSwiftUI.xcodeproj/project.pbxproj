@@ -21,6 +21,7 @@
 		946E17D22D41EE440084EAAC /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E17D12D41EE440084EAAC /* ProductCard.swift */; };
 		946E17D42D41F33F0084EAAC /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E17D32D41F33F0084EAAC /* ProductList.swift */; };
 		947D739C2E7B2179005B0EAE /* containerRelativeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D739B2E7B2179005B0EAE /* containerRelativeFrame.swift */; };
+		947D739E2E7BA4F5005B0EAE /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D739D2E7BA4F5005B0EAE /* OverlayView.swift */; };
 		948479D92C9BD7B800367573 /* ColorGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479D82C9BD7B800367573 /* ColorGrid.swift */; };
 		948479DB2C9BDBA900367573 /* SFSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479DA2C9BDBA900367573 /* SFSymbolView.swift */; };
 		948479DD2C9BDF8B00367573 /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948479DC2C9BDF8B00367573 /* SymbolGrid.swift */; };
@@ -49,6 +50,7 @@
 		946E17D12D41EE440084EAAC /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		946E17D32D41F33F0084EAAC /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		947D739B2E7B2179005B0EAE /* containerRelativeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = containerRelativeFrame.swift; sourceTree = "<group>"; };
+		947D739D2E7BA4F5005B0EAE /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		948479D82C9BD7B800367573 /* ColorGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGrid.swift; sourceTree = "<group>"; };
 		948479DA2C9BDBA900367573 /* SFSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolView.swift; sourceTree = "<group>"; };
 		948479DC2C9BDF8B00367573 /* SymbolGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				9431A4CB2D50049000D20C20 /* GalleryHeroView.swift */,
 				94B326EF2D9E715600A3C4BA /* ImageZoomView.swift */,
 				947D739B2E7B2179005B0EAE /* containerRelativeFrame.swift */,
+				947D739D2E7BA4F5005B0EAE /* OverlayView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				9431A4C72D4F8B4400D20C20 /* FeaturedSection.swift in Sources */,
 				9466B36C2C0044C900DFBFF8 /* Background.swift in Sources */,
 				946E17D42D41F33F0084EAAC /* ProductList.swift in Sources */,
+				947D739E2E7BA4F5005B0EAE /* OverlayView.swift in Sources */,
 				941EF7812C63743500A851C7 /* KeywordBubble.swift in Sources */,
 				948479DB2C9BDBA900367573 /* SFSymbolView.swift in Sources */,
 				947D739C2E7B2179005B0EAE /* containerRelativeFrame.swift in Sources */,
